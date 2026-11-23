@@ -14,6 +14,13 @@ class baseCommand extends Command
     protected $files;
 
     /**
+     * The temporary package path.
+     *
+     * @var string
+     */
+    protected $tempPath;
+
+    /**
      * Create a new route command instance.
      *
      * @param  \Illuminate\Filesystem\Filesystem  $files
